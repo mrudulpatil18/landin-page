@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content1-right img{
+    width: 300px;
+    height: auto;
+}
+
+.info-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-img{
+    display: flex;
+}
+
+.info-info{
+    display: flex;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    text-align: center;
+}
