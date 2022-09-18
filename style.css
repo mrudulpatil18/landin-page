@@ -1,7 +1,14 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
 
+body{
+    margin: 0%;
+    padding: 0;
     display: flex;
     flex-direction: column;
+
 }
 
 .header .left{
@@ -11,13 +18,12 @@ body{
 }
 
 .header{
-    padding: 5px 20px;
+    padding: 50px 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #1f2937;
-
-
+    flex: 1;
 }
 
 
@@ -27,34 +33,38 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
 a{
+    font-weight:lighter;
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
 
 .content1{
+    padding: 90px 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     background-color: #1f2937;
-    gap: 20px;
+    gap: 100px;
+    
 }
 
 .content1-right img{
-    width: 300px;
+    align-self: center;
+    width: 600px;
     height: auto;
-    margin-right: 20px;
+    border-radius: 10px;
 }
 
 .content1-left{
-    margin-left: 20px;
+    align-self: center;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .content1-left .awesome{
@@ -64,41 +74,56 @@ a{
 }
 
 .content1-left .content1-info{
+    font-weight:lighter;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #E5E7EB;
 }
+
+.content1-left .button button{
+    padding: 7px 30px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    border-color: #3882f6;
+}
+
 
 .information .info-head{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     align-self: center;
+    margin-bottom: 40px;
 }
 
 .info-img img{
     width: 200px;
     height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 14px;
 }
 
 .information{
     display: flex;
     flex-direction: column;
+    padding: 50px 450px 100px 450px;
 }
 
 .info-img{
     display: flex;
     justify-content: center;
-
+    gap: 50px;
 }
 
 .info-info{
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 .info-info p{
     width: 200px;
-    padding: 0 10px 0 30px;
     text-align: center;
 }
 
@@ -106,17 +131,20 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 100px 600px;
+    gap: 0px;
 }
 
 .quote .text{
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1d2937;
 }
 
 .credit{
     align-self: flex-end;
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
     color: #1d2937;
 }
@@ -126,15 +154,17 @@ a{
 .sign-up{
     display: flex;
     justify-content: space-around;
-    margin: 30px 50px;
-    padding: 10px 20px;
+    margin: 100px 470px;
+    padding: 40px 20px;
     background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .sign-up .sign-up-info{
     display: flex;
     flex-direction: column;
     color: white;
+    font-size: 18px;
 }
 
 .sign-up .button{
@@ -143,9 +173,23 @@ a{
     justify-content: center;
 }
 
+.temp{
+    font-size: 22px;
+}
+
+.sign-up .button button{
+    padding: 7px 30px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    border-color: white;
+}
+
 .footer{
     background-color: #1d2937;
     text-align: center;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 30px;
 }
